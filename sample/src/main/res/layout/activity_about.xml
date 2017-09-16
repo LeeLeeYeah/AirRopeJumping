@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffcfcfc">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff86C1B5"
+        android:elevation="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:minHeight="?attr/actionBarSize"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/NNN">
+
+
+        <ImageView
+            android:layout_width="296dp"
+            android:layout_height="251dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.18"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="空气跳绳"
+            android:textSize="50sp"
+            android:textColor="#ff86C1B5"
+            android:singleLine="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="version:2.1.0"
+            android:textColor="#6b6b6b"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:id="@+id/" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="微信平台：空气跳绳"
+            android:textSize="15dp"
+            android:textColor="#6b6b6b"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Copyright © Lee Lee Yeah &amp; CLF\nAll Rights Reserved"
+            android:textSize="15dp"
+            android:textColor="#6b6b6b"
+            android:id="@+id/CopyRight" />
+
+    </LinearLayout>
+
+</LinearLayout>

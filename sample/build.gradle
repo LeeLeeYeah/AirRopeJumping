@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "github.chenupt.springindicator.sample"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 3
+        versionName "2.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile project(':lib')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.github.chenupt.android:multiplemodel:1.1.0@aar'
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.timqi.sectorprogressview:library:2.0.0'
+    compile project(':library')
+    compile 'com.hrules:charter:1.1.1'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile files('libs/libammsdk.jar')
+    compile 'cn.pedant.sweetalert:library:1.3'
+}

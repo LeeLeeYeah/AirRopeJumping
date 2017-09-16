@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="github.chenupt.springindicator.sample.Set_goal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        android:background="#5ad999"
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/setgoalbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff86C1B5"
+            android:elevation="10dp"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:minHeight="?attr/actionBarSize"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:layout_above="@+id/myseekbar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="29dp"
+            android:id="@+id/linearLayout3">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/energy" />
+
+                <TextView
+                    android:id="@+id/tvEnergy2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|fill"
+                    android:text="100卡"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textColor="#6b6b6b" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView2"
+                    android:background="@drawable/time" />
+
+                <TextView
+                    android:id="@+id/tvTime2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|fill"
+                    android:text="30分钟"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:clickable="true"
+                    android:textColor="#6b6b6b" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/setgoal"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:padding="8dp"
+            android:minWidth="75dp"
+            android:minHeight="75dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/states_circle_green"
+            android:text="确定"
+            android:textSize="22dp"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <SeekBar
+            android:id="@+id/myseekbar"
+            android:max="100"
+            android:progress="30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:maxHeight="10dp"
+            android:minHeight="10dp"
+            android:layout_weight="1"
+            android:minWidth="270dp"
+            android:maxWidth="270dp"
+            android:layout_above="@+id/setgoal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:indeterminate="false"
+            android:thumbTint="#ffc107"
+            android:backgroundTint="#ffdcdcdc"
+            android:foregroundTint="#ff000000"
+            android:indeterminateTint="#ff000000"
+            android:progressBackgroundTint="#ff000000"
+            android:secondaryProgressTint="#ff000000"
+            android:progressTint="#ff86C1B5"
+
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="false"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/cur_goal"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textColor="#ff5c5c5c"
+                android:text="0"
+                android:gravity="center"
+                android:elegantTextHeight="true"
+                android:foregroundGravity="center_horizontal"
+                android:textSize="140dp"
+                android:editable="false"
+                android:layout_below="@+id/setgoalbar"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个"
+                android:id="@+id/current2"
+                android:textSize="25dp"
+                android:textColor="#ff5c5c5c"
+                android:layout_alignBottom="@+id/cur_goal"
+                android:layout_toRightOf="@+id/setgoal"
+                android:layout_toEndOf="@+id/setgoal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="40dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

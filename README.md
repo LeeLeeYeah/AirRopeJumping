@@ -2,16 +2,10 @@
 This is a interesting rope jumping Android app. It has gained 10,000+ downloads on 360 APP Market. It’s also available on  Google Play.
 
 # ANDROID VERSION
-
 It’s a virtual rope jumping app. Users can a cell phone instead of a real rope to do rope jumping. The app will count for the users, and also give the sound of swinging rope synchronously, making it feels like swinging a real rope.
-
-
 ![](http://www.yejunli.com/wp-content/uploads/AirRopeJumping1-207x350.jpg)
-
 [![](http://www.yejunli.com/wp-content/uploads/fake_video1.jpg)](https://youtu.be/h9ufiHwGIJM)
-
 To prevent users from fabricating data by doing other motion, I tried machine learning method to detect cheating behaviors. Here is a demo:
-
 [![](http://www.yejunli.com/wp-content/uploads/fake_video2.jpg)](https://youtu.be/-qjNP9J90ns)
 
 # APPLE WATCH VERSION

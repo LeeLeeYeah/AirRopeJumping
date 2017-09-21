@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'SwingWatch' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwingWatch
+  platform :ios, ’10.0’
+  pod 'Alamofire', '~> 4.0'
+
+end
+
+target 'SwingWatch WatchKit App' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwingWatch WatchKit App
+  platform :watchos, ‘3.0’
+
+end
+
+target 'SwingWatch WatchKit Extension' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwingWatch WatchKit Extension
+  platform :watchos, ‘3.0’
+  pod 'Alamofire', '~> 4.0'
+
+end
+	

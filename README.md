@@ -1,5 +1,5 @@
 # Air Rope Jumping
-This is a interesting rope jumping Android app. It has gained 10,000+ downloads on 360 APP Market. It’s also available on  Google Play.
+This is a interesting rope jumping Android app. It has gained 10,000+ downloads on 360 APP Market. It’s also available on Google Play. I also developed an Apple Watch version.
 
 # ANDROID VERSION
 It’s a virtual rope jumping app. Users can a cell phone instead of a real rope to do rope jumping. The app will count for the users, and also give the sound of swinging rope synchronously, making it feels like swinging a real rope.

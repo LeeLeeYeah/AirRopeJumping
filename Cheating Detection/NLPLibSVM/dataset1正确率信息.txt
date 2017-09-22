@@ -1,0 +1,80 @@
+.*
+optimization finished, #iter = 138
+nu = 0.6244356692893663
+obj = -27.452749312272502, rho = 0.4100289645434849
+nSV = 72, nBSV = 18
+Total nSV = 72
+Accuracy = 94.28571428571428% (66/70) (classification)
+SVM Classification is done! The accuracy is 0.9428571428571428
+.*
+optimization finished, #iter = 144
+nu = 0.6935404420521866
+obj = -33.14530199031481, rho = 0.36505432000043403
+nSV = 77, nBSV = 24
+Total nSV = 77
+Accuracy = 88.09523809523809% (74/84) (classification)
+SVM Classification is done! The accuracy is 0.8809523809523809
+.*
+optimization finished, #iter = 103
+nu = 0.6533576423747313
+obj = -23.26993833198869, rho = 0.3881932998046257
+nSV = 58, nBSV = 16
+Total nSV = 58
+Accuracy = 83.6734693877551% (82/98) (classification)
+SVM Classification is done! The accuracy is 0.8367346938775511
+.*
+optimization finished, #iter = 107
+nu = 0.6720905859221277
+obj = -22.401570688856737, rho = 0.36243197400235017
+nSV = 57, nBSV = 15
+Total nSV = 57
+Accuracy = 88.46153846153845% (92/104) (classification)
+SVM Classification is done! The accuracy is 0.8846153846153846
+.*
+optimization finished, #iter = 116
+nu = 0.7476193711947804
+obj = -27.592132743059164, rho = 0.30439896018112766
+nSV = 61, nBSV = 19
+Total nSV = 61
+Accuracy = 82.4742268041237% (80/97) (classification)
+SVM Classification is done! The accuracy is 0.8247422680412371
+.*
+optimization finished, #iter = 150
+nu = 0.6624280034638764
+obj = -32.00600906178048, rho = 0.39334237601399447
+nSV = 77, nBSV = 22
+Total nSV = 77
+Accuracy = 87.17948717948718% (68/78) (classification)
+SVM Classification is done! The accuracy is 0.8717948717948718
+.*
+optimization finished, #iter = 130
+nu = 0.6341230025890375
+obj = -28.076278347452263, rho = 0.41359456806220546
+nSV = 69, nBSV = 17
+Total nSV = 69
+Accuracy = 78.49462365591397% (73/93) (classification)
+SVM Classification is done! The accuracy is 0.7849462365591398
+.*
+optimization finished, #iter = 149
+nu = 0.7000711185876967
+obj = -34.550382133219856, rho = 0.36024449467569236
+nSV = 78, nBSV = 23
+Total nSV = 78
+Accuracy = 86.41975308641975% (70/81) (classification)
+SVM Classification is done! The accuracy is 0.8641975308641975
+.*
+optimization finished, #iter = 142
+nu = 0.6670964492756406
+obj = -32.618708104895305, rho = 0.39108112956709684
+nSV = 79, nBSV = 21
+Total nSV = 79
+Accuracy = 89.47368421052632% (68/76) (classification)
+SVM Classification is done! The accuracy is 0.8947368421052632
+.*
+optimization finished, #iter = 144
+nu = 0.7437306851940969
+obj = -35.63304741220005, rho = 0.3345625149166435
+nSV = 76, nBSV = 29
+Total nSV = 76
+Accuracy = 87.3015873015873% (55/63) (classification)
+SVM Classification is done! The accuracy is 0.873015873015873
